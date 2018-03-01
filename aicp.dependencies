@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "AICP/device_xiaomi_msm8998-common",
+    "target_path": "device/xiaomi/msm8998-common",
+    "branch": "o8.1"
+  }
+]
