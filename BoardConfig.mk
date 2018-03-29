@@ -32,5 +32,8 @@ TARGET_OTA_ASSERT_DEVICE := sagit
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
 
+#CLANG
+TARGET_USE_SDCLANG := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/sagit/BoardConfigVendor.mk
